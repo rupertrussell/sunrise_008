@@ -2,7 +2,7 @@
 // 7 August 2020
 // Sunrise_008
 // artwork on redbubble at: https://www.redbubble.com/people/rupertrussell/works/54400153-sunrise-v001?asc=u
-// code on github at:
+// code on github at: https://github.com/rupertrussell/sunrise_008
 
 // int scale = 7500; // for redbubble
 int scale = 750;
@@ -56,6 +56,6 @@ void draw() {
     line(degreesXpos[n], - degreesYpos[n], degreesXpos[180 - n ], - degreesYpos[180 -n]);
   }
 
-  save("sunrise_008.png");
-  // exit();
+  // save("sunrise_008.png"); // for Redbubble
+  // exit(); // for Redbubble
 }
